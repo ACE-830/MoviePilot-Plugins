@@ -1,0 +1,16 @@
+{
+  "DoubanWatchingPlus": {
+    "name": "豆瓣书影音档案Plus",
+    "description": "适配 MoviePilot V3，同步豆瓣观影状态，支持档案统计、批量编辑与手动匹配。",
+    "labels": "豆瓣,媒体库,V3",
+    "version": "1.1",
+    "icon": "https://raw.githubusercontent.com/honue/MoviePilot-Plugins/main/icons/douban.png",
+    "author": "ACE-830",
+    "level": 1,
+    "system_version": ">=3.0.0,<4.0.0",
+    "history": {
+      "v1.1": "新增档案管理页，支持状态统计、搜索多选、批量编辑与移除、手动匹配及海报预览，统一展示手动操作结果。",
+      "v1.0": "适配 MoviePilot V3，优化媒体匹配、失败重试与日志，Emby 同步跟随用户续播和已播放状态。"
+    }
+  }
+}

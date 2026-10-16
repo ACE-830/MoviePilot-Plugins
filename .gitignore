@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+# 本地环境与账号配置
+.env
+.env.*
+app.env
+*.log
+.coverage
+htmlcov/
+
+# 本地开发文档，不提交到远程仓库
+/DEVELOPMENT.local.md
+
+# 前端构建依赖
+node_modules/
+
+# 运行数据库及其日志文件
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# 本地备份、调试资料和交付产物
+backup/
+backups/
+*.bak
+*.backup
+/work/
+/outputs/
